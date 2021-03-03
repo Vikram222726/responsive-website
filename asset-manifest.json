@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/responsive-website/static/css/main.6b45c072.chunk.css",
+    "main.js": "/responsive-website/static/js/main.993a904d.chunk.js",
+    "main.js.map": "/responsive-website/static/js/main.993a904d.chunk.js.map",
+    "runtime-main.js": "/responsive-website/static/js/runtime-main.4c3a2401.js",
+    "runtime-main.js.map": "/responsive-website/static/js/runtime-main.4c3a2401.js.map",
+    "static/css/2.8d74bf26.chunk.css": "/responsive-website/static/css/2.8d74bf26.chunk.css",
+    "static/js/2.5b9c5f02.chunk.js": "/responsive-website/static/js/2.5b9c5f02.chunk.js",
+    "static/js/2.5b9c5f02.chunk.js.map": "/responsive-website/static/js/2.5b9c5f02.chunk.js.map",
+    "static/js/3.171a1df9.chunk.js": "/responsive-website/static/js/3.171a1df9.chunk.js",
+    "static/js/3.171a1df9.chunk.js.map": "/responsive-website/static/js/3.171a1df9.chunk.js.map",
+    "index.html": "/responsive-website/index.html",
+    "static/css/2.8d74bf26.chunk.css.map": "/responsive-website/static/css/2.8d74bf26.chunk.css.map",
+    "static/css/main.6b45c072.chunk.css.map": "/responsive-website/static/css/main.6b45c072.chunk.css.map",
+    "static/js/2.5b9c5f02.chunk.js.LICENSE.txt": "/responsive-website/static/js/2.5b9c5f02.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/responsive-website/static/media/jamimg.5b5200fb.jpg",
+    "static/media/font-awesome.css": "/responsive-website/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c3a2401.js",
+    "static/css/2.8d74bf26.chunk.css",
+    "static/js/2.5b9c5f02.chunk.js",
+    "static/css/main.6b45c072.chunk.css",
+    "static/js/main.993a904d.chunk.js"
+  ]
+}
