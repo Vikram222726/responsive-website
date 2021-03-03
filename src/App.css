@@ -1,38 +1,429 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/jamimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  /* background-color: aqua; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.navbar-head {
+  height: 100px;
+}
+
+.homelogo {
+  height: 60px;
+}
+
+/* .logo {
+  background-color: blue;
+} */
+
+/* .otrbar {
+  background-color: chartreuse;
+} */
+
+/* .empty-bar {
+  background-color: crimson;
+} */
+
+.search-bar {
+  /* background-color: cyan; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.help-bar {
+  /* background-color: darkorange; */
+  justify-content: center;
+}
+
+.account-bar {
+  /* background-color: deepskyblue; */
+  justify-content: center;
+}
+
+.diff-bar {
+  height: 55px;
+}
+
+.icon-bar {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-container {
+  margin-top: 5px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hjm-logo {
+  border-radius: 50%;
+  background-color: azure;
+  width: 80px;
+  height: 70px;
+  background-image: url("./images/hjam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+}
+
+.inputtxt {
+  height: 45px;
+  border-radius: 16px;
+  padding: 6px;
+  color: white;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-color: #181818;
+}
+
+input::placeholder {
+  color: white;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+}
+
+.help-cont {
+  /* background-color: cornflowerblue; */
+  margin-top: 7px;
+  margin-left: 5px;
+  height: 40px;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.acc-cont {
+  /* background-color: grey; */
+  width: 70px;
+  margin-top: 7px;
+  padding: 3px;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.icon-div {
+  /* background-color: brown; */
+  width: 40px;
+  float: right;
+  margin-top: 10px;
+}
+
+.icon-br {
+  margin-top: 7px;
+}
+
+.text-1 {
+  margin-top: 55px;
+}
+
+.txt-1 {
+  margin-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: white;
+  font-size: 42px;
+}
+
+.txt-2 {
+  color: white;
+  font-weight: 400;
+  margin-left: 105px;
+  font-family: cursive;
+}
+
+.tagbar {
+  margin: auto 110px;
+}
+
+.tgbar {
+  margin-top: 70px;
+  height: 150px;
+}
+
+.hearts {
+  margin-top: 30px;
+  color: #3385ff;
+}
+
+/* .circle {
+  background-color: chartreuse;
+} */
+
+.merabi {
+  color: white;
+  margin-top: 30px;
+}
+
+.main-div {
+  justify-content: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 55px;
+  border: 2px solid grey;
+}
+
+.divs1 {
+  border-right-color: cyan;
+  border-top-color: cyan;
+}
+
+.tag-no {
+  margin-top: 2px;
+  font-family: 600;
+  color: white;
+  font-size: 22px;
+}
+
+.label {
+  margin-top: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: grey;
+}
+
+.arrow:hover {
+  color: #3385ff;
+  cursor: pointer;
+}
+
+.search-container,
+.help-cont,
+.acc-cont,
+.icon-br {
+  margin-right: 10px;
+  float: left;
+}
+
+.showBar {
+  margin-top: 55px;
+}
+
+.cmgshow {
+  font-size: 40px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: left;
+  border-bottom: 3px solid;
+  border-bottom-color: #3385ff;
+}
+
+.view {
+  float: right;
+  color: #ffff66;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.sb {
+  margin-top: 65px;
+}
+
+.rb {
+  margin-top: 50px;
+}
+
+.singerPhoto {
+  height: 260px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+  background-image: url("./images/GR.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 4px;
+}
+
+.mycol {
+  margin-top: 50px;
+  margin-right: 5px;
+  height: 420px;
+}
+
+.singerdiv {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 260px;
+  height: 370px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  outline: none;
+  box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.9);
+}
+
+.musicType {
+  margin: 3px 2px 1px;
+  width: 94px;
+  border-radius: 5px;
+  padding: 2px;
+  color: #ff8533;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #ffff00;
+}
+
+.singername {
+  height: 35px;
+  padding: 4px;
+  margin: 2px;
+  font-size: 24px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.moreinfo {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: cursive;
+  color: #1a1aff;
+  padding: 3px;
+  cursor: pointer;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  outline: none;
+}
+
+.moreinfo,
+.hash,
+.ticket {
+  float: left;
+}
+
+.hash {
+  margin-top: 4px;
+  margin-left: 50px;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.ticket {
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.ticket:hover {
+  color: #1a1aff;
+  cursor: pointer;
+}
+
+.nobar {
+  float: right;
+  font-size: 12px;
+  color: white;
+  margin-top: 30px;
+}
+
+.arrow {
+  float: right;
+  margin-top: 26px;
+  color: white;
+}
+
+.revHead {
+  background-color: black;
+  color: white;
+  height: 280px;
+  width: 330px;
+  margin-top: 30px;
+  margin-left: 5px;
+  border-radius: 12px;
+  padding: 5px;
+  outline: none;
+  border: 4px solid #ffff00;
+  box-shadow: 5px 15px 8px 15px #181818;
+}
+
+.revpic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.revpic,
+.nameFlag,
+.myContent {
+  float: left;
+}
+
+.myContent {
+  margin-top: 40px;
+  font-size: 14px;
+  padding: 7px;
+  font-family: cursive;
+}
+
+.nameFlag {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.revflag {
+  margin-top: 6px;
+  margin-left: 8px;
+  border-radius: 4px;
+  outline: none;
+  height: 20px;
+  width: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.revadd,
+.revflag {
+  float: left;
+}
+
+.revadd {
+  margin-left: 8px;
+  margin-top: 8px;
+  font-size: 9px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffff80;
+}
+
+.revname {
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
 }
